@@ -38,9 +38,9 @@ comments:
   provider               : "giscus"
   giscus:
     repo                 : "yomerrallo/thecastedkinweb"
-    repo_id              : "R_kgDOPGcdBQ"
+    repo_id              : "R_kgDOPHxoIg"
     category             : "General"
-    category_id          : "DIC_kwDOPGcdBc4Csi_G"
+    category_id          : "DIC_kwDOPHxoIs4CsjJo"
     mapping              : "pathname"
     strict               : "0"
     reactions_enabled    : "1"
