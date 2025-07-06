@@ -2,3 +2,11 @@
 .page__content li {
   font-size: 0.85em;
 }
+
+html {
+  font-size: calc(1em - 10px);
+}
+
+body {
+  font-size: 0.75em;
+}
