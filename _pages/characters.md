@@ -1,11 +1,12 @@
 ---
 title: "Characters"
 permalink: /characters/
+layout: single
 ---
 
 # Characters
 
-*Meet the known characters from the game. Click on a character to learn more!*
+Meet the known characters from the world of The Casted Kin. Click on a character to learn more!
 
 <ul>
   {% for character in site.characters %}
