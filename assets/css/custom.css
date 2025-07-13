@@ -48,6 +48,7 @@ body {
   align-items: flex-start;
   min-height: 100vh;
   margin-left: 0;
+  margin-right: 0 !important;
   padding: 0;
   background: #23272e;
 }
@@ -69,12 +70,46 @@ body {
   flex-shrink: 0;
 }
 
+/* Make main content area wider */
 .page, .page__inner-wrap {
   flex: 1 1 0%;
   min-width: 0;
-  padding: 2.5em 3vw 2em 3vw;
+  max-width: 1200px; /* Increase max width */
+  padding: 2.5em 6vw 2em 6vw; /* Reduce side padding for more width */
+  margin: 0 auto;
   background: #23272e;
   color: #e0e0e0;
+}
+
+/* Extend the main content area by 320px to the right */
+.page, .page__inner-wrap, .page__content {
+  max-width: calc(100vw - 300px - 320px) !important; /* sidebar + right margin */
+  width: calc(100vw - 300px - 320px) !important;
+  margin: 0 !important;
+  padding-left: 2vw !important;
+  padding-right: 2vw !important;
+}
+
+/* Remove background and constrain width to prevent colored area to the right */
+.page, .page__inner-wrap, .page__content {
+  background: none !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#main[role="main"] {
+  background: #23272e !important;
+}
+
+/* Make the Markdown content area wider */
+.page__content {
+  max-width: 100%;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .page__content {
@@ -107,4 +142,28 @@ body {
 .wiki-sidebar a, .wiki-sidebar .wiki-link {
   white-space: normal;
   word-break: break-word;
+}
+
+/* Reduce right margin/padding to widen the text area */
+.page__inner-wrap, .page__content {
+  padding-left: 2vw !important;
+  padding-right: 2vw !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* Set the main content area to a fixed width of 1280px and remove margin */
+.page, .page__inner-wrap, .page__content {
+  max-width: 1280px !important;
+  width: 1280px !important;
+  margin: 0 !important;
+  padding-left: 2vw !important;
+  padding-right: 2vw !important;
+}
+
+/* Override theme's #main max-width for wide wiki layout */
+#main {
+  max-width: 100% !important;
 }
