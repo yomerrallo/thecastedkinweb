@@ -1,12 +1,110 @@
-.page__content p,
-.page__content li {
-  font-size: 0.85em;
+/* Reset font sizes to inherit from theme */
+html, body {
+  font-size: inherit !important;
 }
 
-html {
-  font-size: calc(1em - 10px);
+/* Sticky top bar (masthead) */
+.masthead {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 200;
+  background: #23272e;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
+/* Adjust body padding to account for sticky masthead */
 body {
-  font-size: 0.75em;
+  padding-top: 70px;
+}
+
+/* Wider dark theme sidebar for longer titles */
+.wiki-sidebar {
+  width: 300px;
+  left: 0;
+  top: 70px;
+  height: calc(100vh - 70px);
+}
+
+.wiki-sidebar a, .wiki-sidebar .wiki-link {
+  color: #7fd7ff;
+  text-decoration: none;
+  font-size: 1em;
+}
+.wiki-sidebar a:hover, .wiki-sidebar .wiki-link:hover {
+  color: #fff;
+}
+
+.wiki-sidebar ul.wiki-tree {
+  margin-top: 1em;
+  padding-left: 1.2em;
+}
+
+/* Main content area next to sidebar */
+#main[role="main"] {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  min-height: 100vh;
+  margin-left: 0;
+  padding: 0;
+  background: #23272e;
+}
+
+.wiki-sidebar {
+  position: sticky;
+  top: 70px;
+  left: 0;
+  width: 300px;
+  min-height: calc(100vh - 70px);
+  max-height: calc(100vh - 70px);
+  overflow-y: auto;
+  background: #23272e;
+  border-right: 1px solid #2c2f36;
+  color: #e0e0e0;
+  padding-top: 1.5em;
+  z-index: 100;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.08);
+  flex-shrink: 0;
+}
+
+.page, .page__inner-wrap {
+  flex: 1 1 0%;
+  min-width: 0;
+  padding: 2.5em 3vw 2em 3vw;
+  background: #23272e;
+  color: #e0e0e0;
+}
+
+.page__content {
+  padding-top: 0.5em;
+  min-height: 80vh;
+  overflow-y: auto;
+  background: transparent;
+}
+
+/* Headings and text for readability */
+.page__content h1, .page__content h2, .page__content h3, .page__content h4 {
+  color: #fff;
+  margin-top: 1.5em;
+}
+
+.page__content p, .page__content li {
+  font-size: 1em;
+  color: #e0e0e0;
+}
+
+/* Optional: style the expand/collapse arrows */
+.wiki-tree .wiki-expand-btn {
+  color: #7fd7ff;
+}
+.wiki-tree .expanded > .wiki-expand-btn {
+  color: #fff;
+}
+
+/* Optional: allow sidebar links to wrap if needed */
+.wiki-sidebar a, .wiki-sidebar .wiki-link {
+  white-space: normal;
+  word-break: break-word;
 }
