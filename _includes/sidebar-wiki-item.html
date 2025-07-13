@@ -1,0 +1,19 @@
+{% assign current_url = page.url | append: '/' %}
+{% assign item_url = item.url | append: '/' %}
+{% assign is_current = current_url == item_url %}
+{% assign is_parent = current_url contains item_url and item_url != '/' %}
+{% assign is_wiki_root = current_url == '/wiki/' or current_url == '/wiki/index.html/' %}
+<li class="{% if item.children.size > 0 %}has-children{% endif %}{% if is_current or is_parent or is_wiki_root %} expanded{% endif %}">
+  {% if item.children.size > 0 and depth < 5 %}
+    <span class="wiki-expand-btn" tabindex="0" aria-label="Expand/collapse">&#9654;</span>
+  {% endif %}
+  <a href="{{ item.url | relative_url }}" class="wiki-link">{{ item.title }}</a>
+  {% if item.children.size > 0 and depth < 5 %}
+    <ul>
+      {% assign next_depth = depth | plus: 1 %}
+      {% for child in item.children %}
+        {% include sidebar-wiki-item.html item=child depth=next_depth %}
+      {% endfor %}
+    </ul>
+  {% endif %}
+</li> 

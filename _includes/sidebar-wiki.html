@@ -1,0 +1,70 @@
+{% assign nav = site.data['wiki-navigation'] %}
+<nav class="wiki-sidebar">
+  <ul class="wiki-tree">
+    {% for item in nav[0].children %}
+      <li class="has-children">
+        {% if item.children %}
+          <span class="wiki-expand-btn" tabindex="0" aria-label="Expand/collapse">&#9654;</span>
+        {% endif %}
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        {% if item.children %}
+          <ul>
+            {% for child in item.children %}
+              <li class="has-children">
+                {% if child.children %}
+                  <span class="wiki-expand-btn" tabindex="0" aria-label="Expand/collapse">&#9654;</span>
+                {% endif %}
+                <a href="{{ child.url | relative_url }}">{{ child.title }}</a>
+                {% if child.children %}
+                  <ul>
+                    {% for grandchild in child.children %}
+                      <li>
+                        <a href="{{ grandchild.url | relative_url }}">{{ grandchild.title }}</a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.wiki-tree .wiki-expand-btn').forEach(function(btn) {
+    btn.addEventListener('click', function(e) {
+      e.preventDefault();
+      btn.parentElement.classList.toggle('expanded');
+    });
+    btn.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        btn.parentElement.classList.toggle('expanded');
+      }
+    });
+  });
+});
+</script>
+
+<style>
+.wiki-tree ul { display: none; margin-left: 1em; }
+.wiki-tree .expanded > ul { display: block; }
+.wiki-tree .wiki-expand-btn {
+  display: inline-block;
+  width: 1em;
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.2s;
+}
+.wiki-tree .expanded > .wiki-expand-btn {
+  transform: rotate(90deg);
+}
+.wiki-tree .has-children > .wiki-link {
+  margin-left: 0.2em;
+}
+.wiki-link { text-decoration: none; color: inherit; cursor: pointer; }
+</style> 
