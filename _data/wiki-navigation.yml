@@ -28,6 +28,17 @@
           url: "/wiki/mythic-characters/white-ash/"
         - title: "Kael (eventually)"
           url: "/wiki/mythic-characters/kael/"
+    - title: "Geography: Lost Realms"
+      url: "/wiki/geography-lost-realms/"
+      children:
+        - title: "Solrael"
+          url: "/wiki/geography-lost-realms/solrael/"
+        - title: "The Maw"
+          url: "/wiki/geography-lost-realms/the-maw/"
+        - title: "Surface Cities"
+          url: "/wiki/geography-lost-realms/surface-cities/"
+        - title: "Naming the World"
+          url: "/wiki/geography-lost-realms/naming-the-world/"
     - title: "Ky: Energy, Memory, Currency"
       url: "/wiki/ky/"
       children:

@@ -332,3 +332,8 @@ defaults:
     values:
       layout: single
       author_profile: true
+  - scope:
+      path: "_wiki"
+      type: wiki
+    values:
+      body_class: wiki

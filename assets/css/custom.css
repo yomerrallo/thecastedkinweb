@@ -19,30 +19,8 @@ body {
   padding-top: 70px;
 }
 
-/* Wider dark theme sidebar for longer titles */
-.wiki-sidebar {
-  width: 300px;
-  left: 0;
-  top: 70px;
-  height: calc(100vh - 70px);
-}
-
-.wiki-sidebar a, .wiki-sidebar .wiki-link {
-  color: #7fd7ff;
-  text-decoration: none;
-  font-size: 1em;
-}
-.wiki-sidebar a:hover, .wiki-sidebar .wiki-link:hover {
-  color: #fff;
-}
-
-.wiki-sidebar ul.wiki-tree {
-  margin-top: 1em;
-  padding-left: 1.2em;
-}
-
-/* Main content area next to sidebar */
-#main[role="main"] {
+/* WIKI LAYOUT: Only apply to wiki pages */
+body.wiki #main[role="main"] {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -53,7 +31,7 @@ body {
   background: #23272e;
 }
 
-.wiki-sidebar {
+body.wiki .wiki-sidebar {
   position: sticky;
   top: 70px;
   left: 0;
@@ -70,82 +48,73 @@ body {
   flex-shrink: 0;
 }
 
-/* Make main content area wider */
-.page, .page__inner-wrap {
+body.wiki .wiki-sidebar a, body.wiki .wiki-sidebar .wiki-link {
+  color: #7fd7ff;
+  text-decoration: none;
+  font-size: 1em;
+}
+body.wiki .wiki-sidebar a:hover, body.wiki .wiki-sidebar .wiki-link:hover {
+  color: #fff;
+}
+body.wiki .wiki-sidebar ul.wiki-tree {
+  margin-top: 1em;
+  padding-left: 1.2em;
+}
+
+body.wiki .wiki-main-content {
   flex: 1 1 0%;
   min-width: 0;
-  max-width: 1200px; /* Increase max width */
-  padding: 2.5em 6vw 2em 6vw; /* Reduce side padding for more width */
+  max-width: 1280px;
   margin: 0 auto;
   background: #23272e;
   color: #e0e0e0;
+  padding: 2.5em 3vw 2em 3vw;
+  display: block;
 }
 
-/* Extend the main content area by 320px to the right */
-.page, .page__inner-wrap, .page__content {
-  max-width: calc(100vw - 300px - 320px) !important; /* sidebar + right margin */
-  width: calc(100vw - 300px - 320px) !important;
+body.wiki .page, body.wiki .page__inner-wrap, body.wiki .page__content {
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+body.wiki .page, body.wiki .page__inner-wrap, body.wiki .page__content {
+  max-width: 1280px !important;
+  width: 1280px !important;
   margin: 0 !important;
   padding-left: 2vw !important;
   padding-right: 2vw !important;
 }
-
-/* Remove background and constrain width to prevent colored area to the right */
-.page, .page__inner-wrap, .page__content {
-  background: none !important;
-  max-width: 100% !important;
-  width: 100% !important;
-  margin: 0 !important;
-  padding-left: 0;
-  padding-right: 0;
-}
-
-#main[role="main"] {
-  background: #23272e !important;
-}
-
-/* Make the Markdown content area wider */
-.page__content {
+body.wiki .page__content {
   max-width: 100%;
   width: 100%;
   padding-left: 0;
   padding-right: 0;
-}
-
-.page__content {
   padding-top: 0.5em;
   min-height: 80vh;
   overflow-y: auto;
   background: transparent;
 }
-
-/* Headings and text for readability */
-.page__content h1, .page__content h2, .page__content h3, .page__content h4 {
+body.wiki .page__content h1, body.wiki .page__content h2, body.wiki .page__content h3, body.wiki .page__content h4 {
   color: #fff;
   margin-top: 1.5em;
 }
-
-.page__content p, .page__content li {
+body.wiki .page__content p, body.wiki .page__content li {
   font-size: 1em;
   color: #e0e0e0;
 }
-
-/* Optional: style the expand/collapse arrows */
-.wiki-tree .wiki-expand-btn {
+body.wiki .wiki-tree .wiki-expand-btn {
   color: #7fd7ff;
 }
-.wiki-tree .expanded > .wiki-expand-btn {
+body.wiki .wiki-tree .expanded > .wiki-expand-btn {
   color: #fff;
 }
-
-/* Optional: allow sidebar links to wrap if needed */
-.wiki-sidebar a, .wiki-sidebar .wiki-link {
+body.wiki .wiki-sidebar a, body.wiki .wiki-sidebar .wiki-link {
   white-space: normal;
   word-break: break-word;
 }
-
-/* Reduce right margin/padding to widen the text area */
-.page__inner-wrap, .page__content {
+body.wiki .page__inner-wrap, body.wiki .page__content {
   padding-left: 2vw !important;
   padding-right: 2vw !important;
   margin-left: 0 !important;
@@ -153,17 +122,62 @@ body {
   max-width: 100% !important;
   width: 100% !important;
 }
-
-/* Set the main content area to a fixed width of 1280px and remove margin */
-.page, .page__inner-wrap, .page__content {
-  max-width: 1280px !important;
-  width: 1280px !important;
-  margin: 0 !important;
-  padding-left: 2vw !important;
-  padding-right: 2vw !important;
+body.wiki #main {
+  max-width: 100% !important;
 }
 
-/* Override theme's #main max-width for wide wiki layout */
-#main {
-  max-width: 100% !important;
+/* Restore default block layout for non-wiki pages */
+#main[role="main"] {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  min-height: 100vh;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  background: unset;
+}
+
+.sidebar {
+  width: 300px;
+  min-height: calc(100vh - 70px);
+  max-height: calc(100vh - 70px);
+  overflow-y: auto;
+  background: #23272e;
+  border-right: 1px solid #2c2f36;
+  color: #e0e0e0;
+  padding-top: 1.5em;
+  z-index: 100;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.08);
+  flex-shrink: 0;
+}
+
+.post-main-content {
+  flex: 1 1 0%;
+  min-width: 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #23272e;
+  color: #e0e0e0;
+  padding: 2.5em 3vw 2em 3vw;
+  display: block;
+}
+
+.post-main-content .page__related {
+  width: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Do not affect wiki layout, which is handled by body.wiki rules above */
+.page, .page__inner-wrap, .page__content {
+  background: unset !important;
+  max-width: unset !important;
+  width: unset !important;
+  margin: unset !important;
+  padding-left: unset !important;
+  padding-right: unset !important;
+  flex: unset !important;
+  min-width: unset !important;
 }

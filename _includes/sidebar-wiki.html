@@ -1,7 +1,8 @@
 {% assign nav = site.data['wiki-navigation'] %}
 <nav class="wiki-sidebar">
   <ul class="wiki-tree">
-    {% for item in nav[0].children %}
+    {% assign sorted_items = nav[0].children | sort: 'title' %}
+    {% for item in sorted_items %}
       <li class="has-children">
         {% if item.children %}
           <span class="wiki-expand-btn" tabindex="0" aria-label="Expand/collapse">&#9654;</span>
@@ -9,7 +10,8 @@
         <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
         {% if item.children %}
           <ul>
-            {% for child in item.children %}
+            {% assign sorted_children = item.children | sort: 'title' %}
+            {% for child in sorted_children %}
               <li class="has-children">
                 {% if child.children %}
                   <span class="wiki-expand-btn" tabindex="0" aria-label="Expand/collapse">&#9654;</span>
@@ -17,7 +19,8 @@
                 <a href="{{ child.url | relative_url }}">{{ child.title }}</a>
                 {% if child.children %}
                   <ul>
-                    {% for grandchild in child.children %}
+                    {% assign sorted_grandchildren = child.children | sort: 'title' %}
+                    {% for grandchild in sorted_grandchildren %}
                       <li>
                         <a href="{{ grandchild.url | relative_url }}">{{ grandchild.title }}</a>
                       </li>
