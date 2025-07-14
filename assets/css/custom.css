@@ -181,3 +181,27 @@ body.wiki #main {
   flex: unset !important;
   min-width: unset !important;
 }
+
+@media (max-width: 900px) {
+  #main[role="main"],
+  body.wiki #main[role="main"] {
+    flex-direction: column;
+  }
+  .wiki-sidebar,
+  .sidebar {
+    width: 100%;
+    max-width: 100%;
+    min-height: unset;
+    max-height: unset;
+    position: static;
+    border-right: none;
+    box-shadow: none;
+    padding-top: 1em;
+    margin-bottom: 1em;
+  }
+  .wiki-main-content,
+  .post-main-content {
+    max-width: 100%;
+    padding: 1em 2vw;
+  }
+}
