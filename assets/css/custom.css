@@ -186,6 +186,13 @@ body.wiki .wiki-sidebar .wiki-link.current {
   color: #1de9b6 !important;
 }
 
+body.wiki .wiki-sidebar {
+  padding-top: 1.5em !important;
+}
+body.wiki .wiki-main-content {
+  padding-top: 2.5em !important;
+}
+
 @media (max-width: 900px) {
   #main[role="main"],
   body.wiki #main[role="main"] {
