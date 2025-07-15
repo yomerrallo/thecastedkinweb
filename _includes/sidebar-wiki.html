@@ -7,7 +7,7 @@
         {% if item.children %}
           <span class="wiki-expand-btn" tabindex="0" aria-label="Expand/collapse">&#9654;</span>
         {% endif %}
-        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        <a href="{{ item.url | relative_url }}" class="wiki-link">{{ item.title }}</a>
         {% if item.children %}
           <ul>
             {% assign sorted_children = item.children | sort: 'title' %}
@@ -16,13 +16,13 @@
                 {% if child.children %}
                   <span class="wiki-expand-btn" tabindex="0" aria-label="Expand/collapse">&#9654;</span>
                 {% endif %}
-                <a href="{{ child.url | relative_url }}">{{ child.title }}</a>
+                <a href="{{ child.url | relative_url }}" class="wiki-link">{{ child.title }}</a>
                 {% if child.children %}
                   <ul>
                     {% assign sorted_grandchildren = child.children | sort: 'title' %}
                     {% for grandchild in sorted_grandchildren %}
                       <li>
-                        <a href="{{ grandchild.url | relative_url }}">{{ grandchild.title }}</a>
+                        <a href="{{ grandchild.url | relative_url }}" class="wiki-link">{{ grandchild.title }}</a>
                       </li>
                     {% endfor %}
                   </ul>
@@ -50,6 +50,24 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   });
+
+  var currentUrl = window.location.pathname.replace(/\/$/, '') + '/';
+  var links = document.querySelectorAll('.wiki-tree a');
+  links.forEach(function(link) {
+    var linkUrl = link.getAttribute('href');
+    if (!linkUrl) return;
+    var normalizedLinkUrl = linkUrl.replace(/\/$/, '') + '/';
+    if (normalizedLinkUrl === currentUrl) {
+      var li = link.closest('li');
+      while (li) {
+        li.classList.add('expanded');
+        var parentUl = li.parentElement;
+        if (!parentUl || parentUl.classList.contains('wiki-tree')) break;
+        li = parentUl.closest('li');
+      }
+      link.classList.add('current');
+    }
+  });
 });
 </script>
 
@@ -70,4 +88,9 @@ document.addEventListener('DOMContentLoaded', function() {
   margin-left: 0.2em;
 }
 .wiki-link { text-decoration: none; color: inherit; cursor: pointer; }
+/* Highlight the current page's link in the sidebar */
+.wiki-tree .wiki-link.current {
+  color: #FFD700; /* gold */
+  font-weight: bold;
+}
 </style> 

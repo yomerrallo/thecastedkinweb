@@ -182,6 +182,10 @@ body.wiki #main {
   min-width: unset !important;
 }
 
+body.wiki .wiki-sidebar .wiki-link.current {
+  color: #1de9b6 !important;
+}
+
 @media (max-width: 900px) {
   #main[role="main"],
   body.wiki #main[role="main"] {
