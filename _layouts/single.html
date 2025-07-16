@@ -19,7 +19,7 @@ layout: default
 {% endif %}
 
 <div id="main" role="main">
-  {% if page.url contains '/wiki/' %}
+  {% if page.url contains '/wiki/' or page.url contains '/world-codex/' %}
     {% include sidebar-wiki.html %}
     <div class="wiki-main-content">
       <article class="page" itemscope itemtype="https://schema.org/CreativeWork"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>

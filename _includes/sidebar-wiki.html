@@ -1,43 +1,51 @@
 {% assign nav = site.data['wiki-navigation'] %}
+{% assign current_root = nil %}
+{% for root in nav %}
+  {% if page.url contains root.url %}
+    {% assign current_root = root %}
+  {% endif %}
+{% endfor %}
 <nav class="wiki-sidebar">
   <ul class="wiki-tree">
-    <li class="has-children">
-      <a href="{{ nav[0].url | relative_url }}" class="wiki-link">{{ nav[0].title }}</a>
-      <ul>
-        {% assign sorted_items = nav[0].children | sort: 'title' %}
-        {% for item in sorted_items %}
-          <li class="has-children">
-            {% if item.children %}
-              <span class="wiki-expand-btn" tabindex="0" aria-label="Expand/collapse">&#9654;</span>
-            {% endif %}
-            <a href="{{ item.url | relative_url }}" class="wiki-link">{{ item.title }}</a>
-            {% if item.children %}
-              <ul>
-                {% assign sorted_children = item.children | sort: 'title' %}
-                {% for child in sorted_children %}
-                  <li class="has-children">
-                    {% if child.children %}
-                      <span class="wiki-expand-btn" tabindex="0" aria-label="Expand/collapse">&#9654;</span>
-                    {% endif %}
-                    <a href="{{ child.url | relative_url }}" class="wiki-link">{{ child.title }}</a>
-                    {% if child.children %}
-                      <ul>
-                        {% assign sorted_grandchildren = child.children | sort: 'title' %}
-                        {% for grandchild in sorted_grandchildren %}
-                          <li>
-                            <a href="{{ grandchild.url | relative_url }}" class="wiki-link">{{ grandchild.title }}</a>
-                          </li>
-                        {% endfor %}
-                      </ul>
-                    {% endif %}
-                  </li>
-                {% endfor %}
-              </ul>
-            {% endif %}
-          </li>
-        {% endfor %}
-      </ul>
-    </li>
+    {% if current_root %}
+      <li class="has-children">
+        <a href="{{ current_root.url | relative_url }}" class="wiki-link">{{ current_root.title }}</a>
+        <ul>
+          {% assign sorted_items = current_root.children | sort: 'title' %}
+          {% for item in sorted_items %}
+            <li class="has-children">
+              {% if item.children %}
+                <span class="wiki-expand-btn" tabindex="0" aria-label="Expand/collapse">&#9654;</span>
+              {% endif %}
+              <a href="{{ item.url | relative_url }}" class="wiki-link">{{ item.title }}</a>
+              {% if item.children %}
+                <ul>
+                  {% assign sorted_children = item.children | sort: 'title' %}
+                  {% for child in sorted_children %}
+                    <li class="has-children">
+                      {% if child.children %}
+                        <span class="wiki-expand-btn" tabindex="0" aria-label="Expand/collapse">&#9654;</span>
+                      {% endif %}
+                      <a href="{{ child.url | relative_url }}" class="wiki-link">{{ child.title }}</a>
+                      {% if child.children %}
+                        <ul>
+                          {% assign sorted_grandchildren = child.children | sort: 'title' %}
+                          {% for grandchild in sorted_grandchildren %}
+                            <li>
+                              <a href="{{ grandchild.url | relative_url }}" class="wiki-link">{{ grandchild.title }}</a>
+                            </li>
+                          {% endfor %}
+                        </ul>
+                      {% endif %}
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </li>
+    {% endif %}
   </ul>
 </nav>
 

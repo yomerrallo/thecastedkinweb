@@ -1,6 +1,6 @@
 ---
-title: "The Casted Kin – Lore Codex"
-permalink: /wiki/
+title: "The World Codex – Lore & Setting"
+permalink: /world-codex/
 layout: single
 sidebar_position: left
 body_class: wiki
@@ -21,9 +21,9 @@ body_class: wiki
 - [Technology & Hollowing](/thecastedkinweb/wiki/technology-hollowing/)
 - [Timeline & History](/thecastedkinweb/wiki/timeline-history/)
 
-Welcome to the living archive of **The Casted Kin**, where exile carved a people and memory shapes the world. The entries below are organized into sections, each rooted in fact, belief, or reconstruction. As with all things in the Depths — trust, but verify.
+Welcome to **The World Codex** for The Casted Kin — a living archive of lore, setting, and myth. Here you’ll find the collected knowledge, stories, and perspectives that shape the world. This codex is organized into sections, each reflecting the fractured truths and beliefs of its people.
 
-This wiki follows a principle of **multi-perspective neutrality**: entries reflect fractured truths as told by colonists, the Conclave, pilgrims, and those in between.
+This Codex is designed for players, readers, and creators to explore the world’s history, cultures, and mysteries. Entries reflect multiple perspectives: colonists, the Conclave, pilgrims, and more.
 
 ---
 
@@ -87,7 +87,4 @@ The record of reckoning — both Core and Solar.
 - [Core Reckoning vs Solar Reckoning](/thecastedkinweb/wiki/timeline-history/core-reckoning-vs-solar-reckoning/)  
 - [The Exile Timeline](/thecastedkinweb/wiki/timeline-history/exile-timeline/)
 
----
-
-> “If we forget the world, the world forgets us.”  
-> — *Jaid, The Third Architect*
+--- 

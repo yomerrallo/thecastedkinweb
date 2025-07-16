@@ -304,6 +304,9 @@ collections:
   wiki:
     output: true
     permalink: /wiki/:name/
+  world_codex:
+    output: true
+    permalink: /world-codex/:name/
 
 # HTML Compression
 # - https://jch.penibelst.de/
