@@ -115,6 +115,8 @@
       children:
         - title: "Names, beliefs, economics, politics"
           url: "/world-codex/colonies-regions/names-beliefs-economics-politics/"
+        - title: "Region 5 - The Colonies"
+          url: "/world-codex/colonies-regions/region-5-the-colonies/"
     - title: "Technology & Hollowing"
       url: "/world-codex/technology-hollowing/"
       children:

@@ -25,7 +25,7 @@ Despite its near-mythic status, the Maw is real. And it still breathes.
 
 ## History
 
-Long before the Exile, the Maw was a **Ky extraction mine** carved into deep strata beneath Solrael. Veins of proto-Skyglass and raw Ky deposits ran through the walls like bronchi, making the tunnels hum faintly with energy even before the Pulse was known.
+Long before the Exile, the Maw was a **Ky extraction mine** carved into deep strata beneath Solrael. Veins of fossilized Ky and proto-Skyglass ran through the walls like bronchi, making the tunnels hum faintly with residual resonance — echoes of long-dead organisms, trapped in stone.
 
 But it was not only energy the Maw offered — it offered **questions**.  
 Strange glyphs, old machines, and subterranean anomalies began to appear along its deeper corridors. Some Kynari — especially among the scholar caste and minor faith sects — began to revere these anomalies, whispering of **forgotten intelligences**, of **divinities below**.
