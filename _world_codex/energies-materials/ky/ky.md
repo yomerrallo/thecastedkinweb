@@ -1,6 +1,6 @@
 ---
 title: "Ky"
-permalink: /world-codex/energies-and-materials/ky/ky-definition
+permalink: /world-codex/energies-and-materials/ky/
 layout: single
 body_class: wiki
 ---

@@ -104,7 +104,7 @@
       url: "/world-codex/energies-and-materials/"
       children:
         - title: "Ky"
-          url: "/world-codex/energies-and-materials/ky/ky-definition/"
+          url: "/world-codex/energies-and-materials/ky/"
           children:
             - title: "Forms of Ky: From Fluid to Crystal"
               url: "/world-codex/energies-and-materials/ky/forms-of-ky/"

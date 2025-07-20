@@ -303,10 +303,10 @@ tag_archive:
 collections:
   wiki:
     output: true
-    permalink: /wiki/:name/
+    permalink: /wiki/:path/
   world_codex:
     output: true
-    permalink: /world-codex/:name/
+    permalink: /world-codex/:path/
 
 # HTML Compression
 # - https://jch.penibelst.de/
