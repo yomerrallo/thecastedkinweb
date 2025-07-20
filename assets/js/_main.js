@@ -232,3 +232,41 @@ $(document).ready(function () {
       });
   }
 });
+
+// === Sidebar Breakout Script for Landscape Mobile ===
+(function() {
+  function updateWikiContentWidth() {
+    var sidebar = document.querySelector('.wiki-sidebar');
+    var mainContent = document.querySelector('.wiki-main-content') || document.querySelector('.page__content');
+    var main = document.querySelector('body.wiki #main[role="main"]');
+    if (!sidebar || !mainContent || !main) return;
+
+    // Only apply on landscape and <=900px
+    var isLandscape = window.matchMedia('(orientation: landscape)').matches;
+    var isNarrow = window.innerWidth <= 900;
+    if (!(isLandscape && isNarrow)) {
+      mainContent.classList.remove('breakout');
+      main.classList.remove('breakout-layout');
+      return;
+    }
+
+    var sidebarRect = sidebar.getBoundingClientRect();
+    var contentRect = mainContent.getBoundingClientRect();
+    var scrollY = window.scrollY || window.pageYOffset;
+    var sidebarBottom = sidebarRect.top + sidebarRect.height + scrollY;
+    var contentTop = contentRect.top + scrollY;
+
+    if (scrollY + 10 > sidebarBottom - window.innerHeight) {
+      // User has scrolled past the sidebar
+      mainContent.classList.add('breakout');
+      main.classList.add('breakout-layout');
+    } else {
+      mainContent.classList.remove('breakout');
+      main.classList.remove('breakout-layout');
+    }
+  }
+
+  window.addEventListener('scroll', updateWikiContentWidth);
+  window.addEventListener('resize', updateWikiContentWidth);
+  document.addEventListener('DOMContentLoaded', updateWikiContentWidth);
+})();

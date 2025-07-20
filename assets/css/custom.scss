@@ -1,9 +1,3 @@
 @import "minimal-mistakes";
 
-html {
-  font-size: 50px;
-}
-
-body {
-  font-size: 0.75em;
-} 
+/* Removed html and body font-size overrides for better mobile scaling */ 
