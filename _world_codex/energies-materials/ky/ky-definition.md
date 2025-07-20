@@ -59,7 +59,7 @@ Some return, **carrying voices not their own**.
 
 ## Ky & Skyglass
 
-In both Surface and Depths, **Skyglass** (called *Veinglass* or *Deepglass* in distant regions) forms a **root-like filament system** through the world.
+In both Surface and Depths, **Skyglass** (called *Rootglass* in distant regions) forms a **root-like filament system** through the world.
 
 These **threads** — invisible to most, but humming to harmonists — carry Ky like **mycelium** carries water and nutrient.
 
@@ -89,7 +89,7 @@ Certain rituals allow priests or machines to **read** Ky — extracting dreams, 
 Ky Shards serve many roles:
 
 - **Spiritual offerings** at shrines
-- **Currency** in markets, especially for rare goods or favors
+- **Currency** in Depths and Surface trade — exchanged for goods, services, rituals, and influence.
 - **Building materials** for powered conduits and Vaultlight pillars
 - **Weapon catalysts** and **infusion reagents**
 

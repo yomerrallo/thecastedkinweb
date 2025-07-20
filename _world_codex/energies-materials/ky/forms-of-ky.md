@@ -21,8 +21,8 @@ Whether flowing through the living or captured in shrine-tithes, **Ky shifts sta
 ## Fluid Ky
 
 ### ✧ State:
-- Warm, luminous, viscous — visible only in death or during ritual extraction.
 - Found in **living Kynari**, Ky-infused fauna, and certain shrines.
+- Warm, luminous, and slow-flowing — visible beneath the skin of the living, especially along the forehead channel, where it naturally accumulates and pulses with experience.
   
 ### ✧ Characteristics:
 - Highly volatile and **resonant to emotion**.
@@ -41,7 +41,7 @@ Whether flowing through the living or captured in shrine-tithes, **Ky shifts sta
 ## Crystallized Ky
 
 ### ✧ State:
-- Solid, faceted. Cools into **shards**, **fragments**, or **cores** within seconds of death.
+- Solid, faceted. Cools into **shards**, **fragments**, or **cores** almost immediately after death
 - Color, hue, and clarity vary depending on life lived.
 
 ### ✧ Characteristics:
@@ -68,7 +68,7 @@ Whether flowing through the living or captured in shrine-tithes, **Ky shifts sta
 
 ### ✧ Use Cases:
 - Alchemical catalysts.
-- Illegal use in **Ky-fume inhalation rituals** (banned in most colonies).
+- Illegal use in **Ky-fume inhalation rituals**.
 - Occasionally **re-condensed** into low-grade shardglass.
 
 ---
@@ -110,13 +110,6 @@ Whether flowing through the living or captured in shrine-tithes, **Ky shifts sta
 
 ---
 
-## Related Concepts
-
-- **Ky Hue & Tier**: Color reveals strength, use, or divine appeal.
-- **Infusion Grade**: Some Ky can be refined; others must remain untouched.
-- **Echo Drift**: Phenomenon where a Ky shard forgets who it was.
-
----
 
 ## See Also
 
