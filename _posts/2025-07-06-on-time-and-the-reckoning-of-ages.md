@@ -29,11 +29,11 @@ Each Pulse — a faint wave felt in the marrow — marks the passage of moments.
 | Pulse       | The Core's beat — used for brief intervals | ~1 hour                   |
 | Glow        | 24 Pulses — a "day" in the Deep         | ~1 day                    |
 | Cycle       | 400 Glows — the full year by our reckoning | ~1.1 surface years        |
-| Generation  | Ten Cycles — a life from birth to parenthood | ~40–45 years         |
+| Generation  | 10 Cycles — a life from birth to parenthood | ~10–11 years         |
 
 The surface still clings to the Solar Reckoning. Some records sent upward for trade or diplomacy include both systems, e.g.:
 
-*Glow 212 of Cycle 3 // Year 162 After Exile (AE)*
+*Cycle 279 // Year 307 After Exile (AE)*
 
 ---
 

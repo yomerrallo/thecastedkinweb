@@ -62,13 +62,15 @@
 - title: "World Codex"
   url: "/world-codex/"
   children:
-    - title: "Timeline & History"
-      url: "/world-codex/timeline-history/"
+    - title: "Time & History"
+      url: "/world-codex/time-history/"
       children:
-        - title: "Core Reckoning vs Solar Reckoning"
-          url: "/world-codex/timeline-history/core-reckoning-vs-solar-reckoning/"
-        - title: "Exile Timeline"
-          url: "/world-codex/timeline-history/exile-timeline/"
+        - title: "Time Reckoning"
+          url: "/world-codex/time-history/time-reckoning/"
+        - title: "History"
+          url: "/world-codex/time-history/history/"
+        - title: "Myths, Legends & Forbidden Histories"
+          url: "/world-codex/time-history/myths-legends/"
     - title: "Factions & Faiths"
       url: "/world-codex/factions-faiths/"
       children:

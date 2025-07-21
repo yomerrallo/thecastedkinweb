@@ -1,6 +1,6 @@
 ---
-title: "Shrines, machines, forbidden tech"
-permalink: /world-codex/technology-hollowing/shrines-machines-forbidden-tech/
+title: "Machines & forbidden tech"
+permalink: /world-codex/technology-hollowing/machines-forbidden-tech/
 layout: single
 body_class: wiki
 ---
