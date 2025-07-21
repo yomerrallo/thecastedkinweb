@@ -5,8 +5,8 @@ layout: single
 body_class: wiki
 ---
 
-*“It is not the god that speaks — it is the shrine that listens.”*  
-— Sayren the Unheard, fragment recovered from Maw’s ascent vault
+> *“It is not the god that speaks — it is the shrine that listens.”*  
+> — Sayren the Unheard, fragment recovered from Maw’s ascent vault
 
 Shrines are not altars. They are **machines** — built of **Skyglass**, **memory-metal**, and **harmonic bone**, designed to convert, channel, and **attune Ky to divine frequency**.
 
