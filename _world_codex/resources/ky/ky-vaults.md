@@ -1,6 +1,6 @@
 ---
 title: "The Ky Vault: Colony Lifeline"
-permalink: /world-codex/energies-and-materials/ky/ky-vaults/
+permalink: /world-codex/resources/ky/ky-vaults/
 layout: single
 body_class: wiki
 ---
@@ -102,7 +102,7 @@ And some refuse new owners.
 
 ## See Also
 
-- [Forms of Ky: From Fluid to Crystal](/world-codex/energies-and-materials/ky/forms-of-ky/)
-- [Harvesting Ky: Methods, Ethics, and Heresy](/world-codex/energies-and-materials/ky/ky-harvesting/)
-- [Ky Hue & Tier Chart](/world-codex/energies-and-materials/ky/ky-tier-system/)
-- [Skyglass & Deepglass Conduits](/world-codex/energies-and-materials/ky/skyglass-network/)
+- [Forms of Ky: From Fluid to Crystal](/world-codex/resources/ky/forms-of-ky/)
+- [Harvesting Ky: Methods, Ethics, and Heresy](/world-codex/resources/ky/ky-harvesting/)
+- [Ky Hue & Tier Chart](/world-codex/resources/ky/ky-tier-system/)
+- [Skyglass & Deepglass Conduits](/world-codex/resources/ky/skyglass-network/)

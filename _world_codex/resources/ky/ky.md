@@ -1,6 +1,6 @@
 ---
 title: "Ky"
-permalink: /world-codex/energies-and-materials/ky/
+permalink: /world-codex/resources/ky/
 layout: single
 body_class: wiki
 ---

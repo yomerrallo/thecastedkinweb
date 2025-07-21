@@ -1,6 +1,6 @@
 ---
 title: "Skyglass"
-permalink: /world-codex/energies-and-materials/skyglass/
+permalink: /world-codex/resources/skyglass/
 layout: single
 body_class: wiki
 ---

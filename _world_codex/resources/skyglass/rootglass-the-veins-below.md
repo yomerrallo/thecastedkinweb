@@ -1,6 +1,6 @@
 ---
 title: "Rootglass: The Veins Below"
-permalink: /world-codex/energies-and-materials/skyglass/rootglass-the-veins-below/
+permalink: /world-codex/resources/skyglass/rootglass-the-veins-below/
 layout: single
 body_class: wiki
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Ky Hue & Tier Chart"
-permalink: /world-codex/energies-and-materials/ky/ky-tier-chart/
+permalink: /world-codex/resources/ky/ky-tier-chart/
 layout: single
 body_class: wiki
 ---
@@ -82,9 +82,9 @@ Gods are drawn to certain hues — and repelled by others. Though not fixed, mos
 
 ## See Also
 
-- [Forms of Ky: From Fluid to Crystal](/world-codex/energies-and-materials/ky/forms-of-ky/)
-- [Harvesting Ky: Methods, Ethics, and Heresy](/world-codex/energies-and-materials/ky/ky-harvesting/)
-- [The Ky Vault: Colony Lifeline](/world-codex/energies-and-materials/ky/ky-vaults/)
-- [Skyglass & Deepglass Conduits](/world-codex/energies-and-materials/ky/skyglass-network/)
+- [Forms of Ky: From Fluid to Crystal](/world-codex/resources/ky/forms-of-ky/)
+- [Harvesting Ky: Methods, Ethics, and Heresy](/world-codex/resources/ky/ky-harvesting/)
+- [The Ky Vault: Colony Lifeline](/world-codex/resources/ky/ky-vaults/)
+- [Skyglass & Deepglass Conduits](/world-codex/resources/ky/skyglass-network/)
 
 ---

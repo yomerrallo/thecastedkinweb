@@ -1,6 +1,6 @@
 ---
-title: "Energies & Materials"
-permalink: /world-codex/energies-and-materials/
+title: "Resources"
+permalink: /world-codex/resources/
 layout: single
 body_class: wiki
 --- 
@@ -16,7 +16,7 @@ body_class: wiki
 
 ### 🧬 Ky: Energy, Memory, Currency
 
-- [What Is Ky?](/thecastedkinweb/world-codex/ky-and-skyglass/ky-definition/)
+- [Ky](/thecastedkinweb/world-codex/ky-and-skyglass/ky-definition/)
 - [Forms of Ky: From Fluid to Crystal](/thecastedkinweb/world-codex/ky-and-skyglass/forms-of-ky/)
 - [Ky Rarity & Hue Chart](/thecastedkinweb/world-codex/ky-and-skyglass/ky-tier-system/)
 - [Ky as Currency & Tribute](/thecastedkinweb/world-codex/ky-and-skyglass/ky-currency-tribute/)
@@ -25,7 +25,7 @@ body_class: wiki
 
 ---
 
-### 🔮 Skyglass (Surface) // Deepglass (Depths)
+### 🔎 Skyglass (Surface) // Deepglass (Depths)
 
 - [Skyglass: Divine Circuitry of the Surface](/thecastedkinweb/world-codex/ky-and-skyglass/skyglass-overview/)
 - [Deepglass: The Breath of the Core](/thecastedkinweb/world-codex/ky-and-skyglass/deepglass-equivalent/)
@@ -35,7 +35,7 @@ body_class: wiki
 
 ---
 
-### 🛠 Materials of the Depths *(placeholder section)*
+### 🛠️ Materials of the Depths *(placeholder section)*
 
 - [Fungal Stone](/thecastedkinweb/world-codex/ky-and-skyglass/fungal-stone/) — Grown mineralized roots used in building shells
 - [Veinmetal](/thecastedkinweb/world-codex/ky-and-skyglass/veinmetal/) — Semi-organic metal, conductive but brittle

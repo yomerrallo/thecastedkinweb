@@ -1,6 +1,6 @@
 ---
 title: "Harvesting Ky: Methods, Ethics, and Heresy"
-permalink: /world-codex/energies-and-materials/ky/ky-harvesting/
+permalink: /world-codex/resources/ky/ky-harvesting/
 layout: single
 body_class: wiki
 ---
@@ -117,9 +117,9 @@ A rare, tragic result of failed harvesting — beings **drained but not dead**. 
 
 ## See Also
 
-- [Forms of Ky: From Fluid to Crystal](/world-codex/energies-and-materials/ky/forms-of-ky/)
-- [Ky Hue & Tier Chart](/world-codex/energies-and-materials/ky/ky-tier-system/)
-- [The Ky Vault: Colony Lifeline](/world-codex/energies-and-materials/ky/ky-vaults/)
-- [Skyglass & Deepglass Conduits](/world-codex/energies-and-materials/ky/skyglass-network/)
+- [Forms of Ky: From Fluid to Crystal](/world-codex/resources/ky/forms-of-ky/)
+- [Ky Hue & Tier Chart](/world-codex/resources/ky/ky-tier-system/)
+- [The Ky Vault: Colony Lifeline](/world-codex/resources/ky/ky-vaults/)
+- [Skyglass & Deepglass Conduits](/world-codex/resources/ky/skyglass-network/)
 
 ---

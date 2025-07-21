@@ -1,6 +1,6 @@
 ---
 title: "Materials"
-permalink: /world-codex/energies-and-materials/materials/
+permalink: /world-codex/resources/materials/
 layout: single
 body_class: wiki
 ---

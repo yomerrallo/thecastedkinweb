@@ -1,6 +1,6 @@
 ---
 title: "Properties and Behavior"
-permalink: /world-codex/energies-and-materials/skyglass/properties-and-behavior/
+permalink: /world-codex/resources/skyglass/properties-and-behavior/
 layout: single
 body_class: wiki
 ---
