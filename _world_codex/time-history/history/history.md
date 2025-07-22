@@ -31,7 +31,7 @@ Much of this history is **oral, fragmented, or contested** — rewritten by shri
 ---
 
 ## The Solar Age  
-_Pre-Exile Era (?? – Year 0 AE / SR ~7050)_
+_Pre-Exile Era (?? – Year 0 AE / SR ~6293)_
 
 > “We did not lose time. We abandoned it.”  
 > — Archivist Velren, Shrine of Hollow Names
@@ -46,9 +46,9 @@ _Pre-Exile Era (?? – Year 0 AE / SR ~7050)_
   Emerging cults deviate from Sol-worship, calling attention to under-gods and Ky anomalies.
 
 - **[SR ~6202]** — *Sealing of the Maw*  
-  Conclave closes the Deep Road beneath Auvira’s Terrace. Official reasoning: unstable Ky veins.
+  Conclave closes the Deep Road and seals the Maw Crown. Official reasoning: unstable Ky veins.
 
-- **[SR ~6293 / Year 0 AE]** — *The Shattering*
+- **[SR ~6293 / Year 0 AE]** — *The Shattering*  
   Auvira’s Crest cracks during the First Pulse of Glow 1, Cycle 0. Solrael’s lower terraces collapse.  
   Exile begins. Surface calendar abandoned by the Depth-bound.
 
@@ -63,17 +63,17 @@ _The Shattering & Descent (Cycle 0–10)_
 
 - **Glow 1, Pulse 0, Cycle 0** — *First Pulse Recorded Below*  
   The Skyglass dome of Auvira's Crest fractures. Tremors spread across the Fifth Terrace.  
-  Panic erupts; a mob forms at the terrace’s southern edge. Civil order dissolves within hours.
+  Panic erupts; a mob forms at the terrace’s southern edge. Civil order dissolves quickly.
 
-- **Glow 1–2** — *The Maw is rediscovered*  
-  Scholar-castes guide a flood of survivors to the sealed gate. The Deep Road reopens.  
-  Thousands perish in the chaos or are lost in fractured terraces.
+- **Glow 1–2** — *The Southern Exodus Begins*  
+  Scholar-castes and heretics lead survivors out of Solrael’s Fifth Terrace toward the Deep Road.  
+  The Maw lies days away, and many perish in the broken alleys and collapsed outer roads.
 
 - **Glow 3** — *First waves descend into the Depths*  
   The Kynari cross the Maw’s Crown. Echoes of their descent travel back as warnings and rumors.
 
 - **Glow 4–6** — *The Conclave closes the upper shrines*  
-  Remaining authorities declare silence. Last known shrine-tithe is burned.  
+  Remaining authorities declare silence. Last known shrine-tithe is burned.
   Return becomes impossible.  
 
 - **Cycle 0.1–1.0** — *The Descent Era begins*  

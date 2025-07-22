@@ -47,8 +47,10 @@
     - title: "Technology & Hollowing"
       url: "/wiki/technology-hollowing/"
       children:
-        - title: "Shrines, machines, forbidden tech"
-          url: "/wiki/technology-hollowing/shrines-machines-forbidden-tech/"
+        - title: "Shrines and Resonance"
+          url: "/wiki/technology-hollowing/shrines-resonance/"
+        - title: "Canonization & Memory Encoding"
+          url: "/wiki/technology-hollowing/canonization-memory-encoding/"
     - title: "Creatures, Flora, Fauna"
       url: "/wiki/creatures-flora-fauna/"
       children:
@@ -147,8 +149,12 @@
     - title: "Technology & Hollowing"
       url: "/world-codex/technology-hollowing/"
       children:
-        - title: "Shrines, machines, forbidden tech"
-          url: "/world-codex/technology-hollowing/shrines-machines-forbidden-tech/"
+        - title: "Shrines and Resonance"
+          url: "/world-codex/technology-hollowing/shrines-resonance/"
+        - title: "Canonization & Memory Encoding"
+          url: "/world-codex/technology-hollowing/canonization-memory-encoding/"
+        - title: "Machines & Forbidden Tech"
+          url: "/world-codex/technology-hollowing/machines-forbidden-tech/"
     - title: "Creatures, Flora, Fauna"
       url: "/world-codex/creatures-flora-fauna/"
       children:
