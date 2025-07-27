@@ -26,7 +26,7 @@ The Vault is not symbolic. It is survival.
 | Function | Description |
 |----------|-------------|
 | **Light Source** | Emits low-frequency glow that stabilizes deeper colony zones and wards off hollow-spawn |
-| **Shrine Conduit** | Routes offerings to the gods via Skyglass root-threads |
+| **Shrine Conduit** | Can route offerings to the gods via Skyglass root-threads |
 | **Energy Reserve** | Powers high-tier colony defenses, transport gates, and infusion devices |
 | **Faith Index** | The Vault’s brightness reflects the gods’ favor — and the colony’s standing |
 
@@ -34,7 +34,7 @@ The Vault is not symbolic. It is survival.
 
 ## Construction
 
-Most Ky Vaults are built from scavenged or traded **Skyglass**, often **vein-fused with Shrineglass** from collapsed temples.
+Most Ky Vaults are built from scavenged or traded **Skyglass**, often **vein-fused** from collapsed temples.
 
 They are encased in:
 
@@ -67,10 +67,11 @@ Some vaults **hum warnings** before flickering out. Others… just go silent.
 A dead vault is a colony without breath.  
 When a Vault is broken or stolen (it has happened), consequences include:
 
-- Shrine blackout
-- Mass hollowing of colonists
-- Instant god-abandonment
-- Collapse of local trade pacts
+- Shrine blackout  
+- Sudden loss of divine favor  
+- Collapse of local trade pacts  
+- Skyglass decay or Ky filament corruption  
+- Mass migration or internal revolt  
 
 > “They cracked ours open. Took the glow. We saw nothing after.”  
 > — Survivor of Colony Muer

@@ -64,6 +64,19 @@
 - title: "World Codex"
   url: "/world-codex/"
   children:
+    - title: "Gods"
+      url: "/world-codex/gods/"
+      children:
+        - title: "What are Gods?"
+          url: "/world-codex/gods/what-are-gods/"
+        - title: "Domains of the Divine"
+          url: "/world-codex/gods/domains-of-the-divine/"
+        - title: "God Tiers"
+          url: "/world-codex/gods/god-tiers/"
+        - title: "Worship and Offerings"
+          url: "/world-codex/gods/worship-offerings/"
+        - title: "Divine Relationships & Politics"
+          url: "/world-codex/gods/divine-relationship-and-politics/"
     - title: "Time & History"
       url: "/world-codex/time-history/"
       children:

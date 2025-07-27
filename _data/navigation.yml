@@ -2,7 +2,7 @@
 main:
   - title: "Home"
     url: "/"
-  - title: "Game & History"
+  - title: "The Game"
     url: "/game/"
   - title: "The World Codex"
     url: "/world-codex/"

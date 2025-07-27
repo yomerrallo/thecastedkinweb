@@ -1,7 +1,9 @@
 ---
-title: "Game & History"
+title: "The Game"
 permalink: /game/
 layout: single
+sidebar_position: left
+body_class: wiki
 ---
 
 # About the Game

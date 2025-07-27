@@ -10,73 +10,57 @@ body_class: wiki
 
 ---
 
-## Overview
+Not all Ky is created equal.
 
-Not all Ky is created equal. While all living beings are seeded with Ky at birth, its **hue**, **clarity**, and **resonance tier** vary widely based on **how** life was lived — and **how** death occurred.
+While every living being is seeded with Ky at birth, its **hue**, **clarity**, and **tier** reflect how a life was lived, and how its echoes have compounded — even beyond death.
 
-Scholars, shrine-keepers, and Ky-traders alike use **Hue & Tier Classification** to identify the strength, usability, and potential sanctity (or danger) of crystallized Ky.
+The **Hue-Tier System** below represents a unified scale used by shrinekeepers, traders, vaultmechs, and harmonists to evaluate Ky by:
+
+- **Color** (hue resonance)
+- **Emotional-mnemonic depth**
+- **Tier rank** (common to forbidden)
+- **Potential uses** and divine response
 
 ---
 
-## Hue: The Spectrum of Memory
+## Hue-Tier Spectrum
 
-A Ky shard’s **color** reflects the emotional and mnemonic weight of its bearer’s experiences. Though not absolute, this spectrum offers insight into what the shard “remembers.”
-
-| Hue              | Typical Emotional Echo           | Notes |
-|------------------|----------------------------------|-------|
-| **Pale Blue**     | Wonder, first loves, discovery    | Common in early deaths or artist castes |
-| **Emerald Green** | Curiosity, growth, adaptation     | Seen in pilgrims, scouts |
-| **Amber**         | Loyalty, burden, self-sacrifice   | Favored by shrines of Ivraya |
-| **Crimson**       | Anger, vengeance, glory           | Valued by militant gods, volatile in vaults |
-| **Violet**        | Sorrow, longing, unresolved grief | Difficult to repurpose, high in dream-echo |
-| **Black-Gold**    | Revelation, heresy, forbidden truth | Rare, sometimes rejected by shrines |
-| **White-Clear**   | Clarity, devotion, unbroken faith | Highly pure — too bright for some conduits |
-| **Gray-Dull**     | Regret, stagnation, numbness      | Often unstable, fades quickly |
-| **Iridescent**    | Mixed echoes, high mnemonic load  | Ritual-only use — considered dangerous |
+| Tier | Hue         | Description | Mnemonic Echoes | Lore & Notes |
+|------|-------------|-------------|------------------|---------------|
+| **0** | Gray-Dull   | Common      | Regret, numbness, disuse | Faintest shards. Found in inactive zones or among unremarkable lives. Fade quickly. |
+| **1** | Green       | Uncommon    | Curiosity, growth, adaptation | First true signal of experience. Common among scouts, exiles, or young raiders. |
+| **2** | Blue        | Rare        | Loyalty, discovery, burden | Seen in committed kin. Indicates meaningful choice, early sacrifice. |
+| **3** | Purple      | Epic        | Glory, vengeance, sorrow | Strong personalities, blood-marked lives. Shrines react strongly. |
+| **4** | Gold        | Legendary   | Revelation, belief, sacrifice | Rare and radiant. Often linked to historic figures or shrine-blessed events. |
+| **5** | Orange      | Mythic      | Echoes of multiple lives, war-memory, deep love or loss | Feared and revered. Some gods refuse them. Others hoard them. |
+| **6** | Red         | Unique      | Singular experiences beyond comprehension | Bound to legendary items, colonies, or god-touched kin. Rarely tradeable. |
+| **7** | Black       | Forbidden   | Heresy, goddefiance, fractured identity | Illegal to hold. Dangerous to vault. May speak back if broken. |
 
 > “It’s not the color that tells you its power. It’s the silence when it breaks.”  
 > — Harmonist Rulebook, Clause 7
 
 ---
 
-## Tier: Resonance Levels
+## Interpreting the Scale
 
-Tiers define **how much energy and memory a shard contains**, and whether it can be safely used, infused, or traded. Tiers are influenced by **lifetime depth**, **manner of death**, and **divine favor**.
-
-| Tier | Classification      | Use Cases | Notes |
-|------|----------------------|-----------|-------|
-| **Tier 0** | Dust | Useless, degraded | Dead zones, cursed remnants |
-| **Tier 1** | Faint | Basic offerings, torchlight fuel | Common |
-| **Tier 2** | Viable | Currency-grade, shrine-standard | Trade safe |
-| **Tier 3** | Potent | Vault-use, infusion-grade | Attracts god-echo |
-| **Tier 4** | Rare | Artifact forging, elite catalysts | Causes shrine resonance |
-| **Tier 5** | Mythic | Forbidden rites, god-vision, echo-walking | Nearly unstable |
-
-Some colonies have their own local variants, but the above is accepted by the **Shrine Consortium**, the closest thing to an inter-colony Ky standard.
-
----
-
-## Shard Traits & Exceptions
-
-Some shards are misclassified or defy all known categories. Notable anomalies include:
-
-- **Singing Shards**: Vibrate in tune with shrine pulses. Said to contain partial awareness.
-- **Mourning Cores**: Crystallize in circular structures, often unbreakable. Formed during collective death events.
-- **Ashlock Shards**: Appear pure white but reject offering. May contain counterfeit memories.
+- Children and newborns often begin near **Tier 1–2**, regardless of age — their Ky is **potential-rich**, even if unused.
+- Aging without impact often leads to **Tier 0–1** shards.
+- Echoes persist **after death** — Ky can inherit memories, increasing **tier post-mortem** through inheritance, fusion, or shrine-channeling.
+- **Unique and Forbidden tiers** are sometimes believed to carry full memory ghosts, or partial identities, within.
 
 ---
 
 ## Shrine Alignment
 
-Gods are drawn to certain hues — and repelled by others. Though not fixed, most shrines **resonate stronger** with shards whose hue aligns with their nature.
+Gods are drawn to certain hues — and repelled by others. Most shrines **resonate stronger** with Ky whose hue aligns with their nature.
 
 | God / Pantheon       | Preferred Hue(s) | Notes |
 |----------------------|------------------|-------|
-| **Sol (Upper-God)**         | White, Amber      | Rejects Black-Gold shards |
-| **Core (Under-God Network)** | Crimson, Violet   | Does not reject impurity |
-| **Ivraya of Tongues**       | Amber, Iridescent | Accepts mixed-hue shards |
-| **The Veiled Ones**         | Black-Gold, Violet | Only usable through veil shrines |
-| **The Forgotten**           | Gray, Ash          | Accept loss, resist purity |
+| **Sol (Upper-God)**         | Gold, Blue      | Rejects Black shards |
+| **Core (Under-God Network)** | Purple, Red     | Accepts impurity and excess |
+| **Ivraya of Tongues**       | Blue, Orange    | Resonates with layered memory |
+| **The Veiled Ones**         | Black, Red      | Only usable through Veil shrines |
+| **The Forgotten**           | Gray, Black     | Accept loss, reject clarity |
 
 ---
 
@@ -85,6 +69,4 @@ Gods are drawn to certain hues — and repelled by others. Though not fixed, mos
 - [Forms of Ky: From Fluid to Crystal](/world-codex/resources/ky/forms-of-ky/)
 - [Harvesting Ky: Methods, Ethics, and Heresy](/world-codex/resources/ky/ky-harvesting/)
 - [The Ky Vault: Colony Lifeline](/world-codex/resources/ky/ky-vaults/)
-- [Skyglass & Deepglass Conduits](/world-codex/resources/ky/skyglass-network/)
-
----
+- [Skyglass & Rootglass Conduits](/world-codex/resources/ky/skyglass-network/)
